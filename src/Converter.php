@@ -60,6 +60,11 @@ class Converter implements ConverterInterface
 
         return $this->htmlRenderer->renderBlock($documentAST);
     }
+    
+    public function render($commonMark)
+    {
+        return $this->converToHtml($commonMark);
+    }
 
     /**
      * Converts CommonMark to HTML.
