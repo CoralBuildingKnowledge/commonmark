@@ -63,7 +63,7 @@ class Converter implements ConverterInterface
     
     public function render($commonMark)
     {
-        return $this->converToHtml($commonMark);
+        return $this->convertToHtml($commonMark);
     }
 
     /**
